@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #fff;
+
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    max-width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.container > h2 {
+    text-align: center;
+    font-size: 45px;
+    background-color: #fff;
+    margin: 25px 0;
+}
+
+.main-wrapper {
+    display: flex;
+    gap: 20px;
+}
+.cards {
+    display: flex;
+    gap: 25px 0;
+    padding: 30px;
+    border-radius: 15px;
+}
+.card-text {
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+.wrapper-input {
+    width: 28px;
+    height: 28px;
+    border: 2px solid #222;
+    background-position: center;
+    margin-left: 220px;
+    
+}
+.card-img {
+    display: flex;
+    width: 250px;
+    height: 200px;
+    margin: 30px 0;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cards:has(:checked) {
+    border: 5px solid blue;
+}
+.cards{
+    border: 5px solid transparent;
+}
+.wrapper-input:checked {
+    background-image: url(../image/check.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.box-btn {
+    width: 120px;
+    height: 40px;
+    color: gray;
+
+}
+.box-btn-item {
+    width: 120px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: #fff;
+}

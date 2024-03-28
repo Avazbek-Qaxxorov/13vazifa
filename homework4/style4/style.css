@@ -1,0 +1,117 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body > h1 {
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.main-wrapper {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 150px;    
+    margin:0 auto;
+    align-items: center;
+    margin: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: black; */
+    margin: 50px 0;
+    border: 1px solid black;
+}
+.box > h2 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+
+.cards-radio {
+    margin: 13px;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #07dc0e;
+
+    
+}
+.card-radio {
+    width: 100%;
+    appearance: none;
+    height: 100%;
+    border-radius: 50%;
+}
+.card-radio:checked {
+    background-color: rgb(113, 14, 206);
+    border: none;
+    background-size: 100%;
+    background-position: center;
+}
+.radio2{
+    width: 20px;
+    height: 20px;
+}
+
+.radio3 {
+    width: 18px;
+    height: 18px;
+}
+
+.radio4 {
+    width: 25px;
+    height: 25px;
+}
+.wrapper-radio {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border: 2px solid #03f627;
+
+}
+
+#radio2 .cards-radio {
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 1px ;
+}
+
+#radio3 .cards-radio {
+    appearance: none;
+    width:32px;
+    height: 32px;
+    border-radius: 10px;   
+}
+
+#radio4 .cards-radio {
+    appearance: none;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+}
+#radio4 .cards-check:checked {
+    background-position: center;
+    background-image: url(../images/x-lg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#radio4 .cards-check {
+    border: none;
+    border-radius: 0;
+}
